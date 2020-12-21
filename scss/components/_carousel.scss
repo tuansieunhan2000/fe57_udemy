@@ -1,0 +1,20 @@
+.carousel {
+  background-image: url("../../img/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  p {
+    color: white;
+  }
+  form{
+    @include formSearch;
+  }
+}

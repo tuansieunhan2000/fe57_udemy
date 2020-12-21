@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header__left {
+  align-items: center;
+}
+
+.header__left a {
+  flex-grow: 1;
+}
+
+.header__left .categories {
+  flex-grow: 1;
+}
+
+.header__left form {
+  flex-grow: 5;
+}
+
+.header__left form .input-group {
+  border: 1px solid #cccccc;
+}
+
+.header__left form .input-group input {
+  background-color: #f2f3f5;
+  padding: 10px 12px;
+  border: none;
+  outline: none;
+}
+
+.header__left form .input-group input:focus {
+  box-shadow: none;
+}
+
+.header__left form .input-group i {
+  padding: 11px;
+  color: #ec5252;
+  background-color: #f2f3f5;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.header__left form .input-group i:hover {
+  color: white;
+  background-color: #ec5252;
+}
+
+.header__right .btn-login {
+  border: 1px solid #333;
+  color: #333;
+  font-weight: 700;
+}
+
+.header__right .btn-login:hover {
+  border: 1px solid black;
+  font-weight: 700;
+  color: black;
+}
+
+.carousel {
+  background-image: url("../../img/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.carousel p {
+  color: white;
+}
+
+.carousel form .input-group {
+  border: 1px solid #cccccc;
+}
+
+.carousel form .input-group input {
+  background-color: #f2f3f5;
+  padding: 10px 12px;
+  border: none;
+  outline: none;
+}
+
+.carousel form .input-group input:focus {
+  box-shadow: none;
+}
+
+.carousel form .input-group i {
+  padding: 11px;
+  color: #ec5252;
+  background-color: #f2f3f5;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.carousel form .input-group i:hover {
+  color: white;
+  background-color: #ec5252;
+}
+/*# sourceMappingURL=style.css.map */

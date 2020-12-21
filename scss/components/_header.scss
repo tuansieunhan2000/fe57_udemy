@@ -1,0 +1,26 @@
+.header__left {
+  align-items: center;
+  a {
+    flex-grow: 1;
+  }
+  .categories {
+    flex-grow: 1;
+  }
+  form{
+      flex-grow: 5;
+    @include formSearch;
+  }
+}
+.header__right {
+  .btn-login {
+    border: 1px solid #333;
+    color: #333;
+    font-weight: 700;
+    &:hover {
+      border: 1px solid black;
+      font-weight: 700;
+      color: rgb(0, 0, 0);
+    }
+  }
+
+}
